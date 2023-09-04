@@ -1,28 +1,13 @@
 # Astrodynamics-MATLAB-Examples
 A collection of MATLAB code examples for various astrodynamics topics, including spacecraft trajectories, navigation, and optimization.
-# Repository Name
-
-A brief description of your repository.
 
 ## Table of Contents
-- [Installation](#installation)
 - [Usage](#usage)
-- [Examples](#examples)
 - [License](#license)
 - [Contributing](#contributing)
-- [Acknowledgments](#acknowledgments)
 - [Contact](#contact)
 
-- 
-
-## Installation
-
-Explain how to install any dependencies and how to run your code. For example:
-
-```bash
-pip install mylibrary
-
-Usage & Examples Included 
+#usage & Examples Included 
 Range = Range Estimation 
 Seq_Est = Sequential Estimation
 Angles_Only = Angles-Only Measurements
@@ -34,11 +19,10 @@ BVP = Boundary Value Problem
 RPO = Rendevous & Proximity Operations 
 GA - Genetic Algorithims
 
-License
-This project is licensed under the [License Name] - see the LICENSE.md file for details.
-
-Contributing
+#contributing
 Feel free to contribute by following our Contribution Guidelines.
+
+#contact jakaylarw1@gmail.com
 
 Acknowledgments
 ChatGPT
