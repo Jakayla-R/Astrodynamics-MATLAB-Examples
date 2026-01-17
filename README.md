@@ -18,8 +18,4 @@ BVP = Boundary Value Problem
 RPO = Rendevous & Proximity Operations 
 GA - Genetic Algorithims
 
-Contributing
-Feel free to contribute by following our Contribution Guidelines.
 
-Contact
-For questions or feedback, you can reach me at jakayla2022@my.fit.edu.
