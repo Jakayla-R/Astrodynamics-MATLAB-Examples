@@ -25,6 +25,6 @@ A collection of MATLAB code examples for various astrodynamics topics, including
 
 (RPO)Rendevous & Proximity Operations: <br /> This code simulates rendezvous and proximity operations between a chaser spacecraft and a target, like a servicing vehicle approaching the ISS. I set up initial position and velocity states for both vehicles, then propagate their trajectories under Earth's gravitational influence using ode45. The dynamics function computes the equations of motion including gravitational acceleration and would include control inputs for the chaser's thrusters to execute approach maneuvers. The code plots both trajectories in 3D to visualize the relative motion. In a full implementation, you'd add guidance algorithms like the Clohessy-Wiltshire equations for relative motion, implement thruster firing logic to null out closing velocity, and add collision avoidance constraints. This framework handles the orbital mechanics side of RPO, which is critical for docking operations, on-orbit servicing, or debris removal where you need precise control of the relative state between two spacecraft operating in close proximity.
 
-(GA)Genetic Algorithims <br /> 
+
 
 
