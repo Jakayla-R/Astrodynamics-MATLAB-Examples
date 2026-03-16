@@ -1,12 +1,7 @@
 
 **A collection of MATLAB code examples for various astrodynamics topics, including spacecraft trajectories, navigation, and optimization.**
 
-## Table of Contents
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Contact](#contact)
 
-**Usage**<br />
 **Range = Range Estimation** <br />
 
 **(Seq_Est) Sequential Estimation:** <br /> This code demonstrates sequential state estimation where I process range measurements as they arrive over time to track a moving object. I simulate a target with constant velocity, generate noisy range observations at each time step, then update the position estimate sequentially as new data comes in. The estimation updates the state by correcting in the direction of the range residual. In practice, you'd implement this as a Kalman filter with proper prediction and update steps, process noise modeling, and measurement covariance weighting. Sequential estimation is how real-time tracking systems work, processing sensor data on the fly rather than waiting to batch process everything. This approach is essential for onboard navigation systems or ground-based tracking where you need current state estimates for operational decisions, like commanding thruster firings or updating collision avoidance predictions 
